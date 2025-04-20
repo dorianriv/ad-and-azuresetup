@@ -105,6 +105,8 @@ Log in to DC-1 via Remote Desktop, open Windows Defender Firewall, and navigate 
 
 ![image](https://github.com/user-attachments/assets/4fe9e17a-6fa1-4b75-acd1-7f970f2b0c40)
 
+![image](https://github.com/user-attachments/assets/5d4e765f-20fa-4d05-a238-b1732ac59495)
+
 <p>
 Now once the traffic has been enabled, you can check back with Client-1 and notice that the ping is now successful.
 </p>
