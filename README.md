@@ -2,16 +2,22 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Project Logo"/>
 </p>
 
-<h1>Active Directory Setup & Network Traffic Analysis with Azure VMs</h1>
+<h1>Azure Infrastructure Setup for Active Directory – Phase 1</h1>
 
 <p>
-This project kicks off a hands-on lab series focused on deploying Active Directory in a simulated Azure environment. In this first part, we’ll build the core infrastructure needed to replicate how AD works in a real enterprise network.
+This project is the first step in a hands-on lab series to set up an Active Directory environment in Azure. In this phase, the focus is on creating two virtual machines on the same network, ensuring remote access works, and confirming they can communicate. These setup steps are important before moving on to installing and configuring Active Directory in the next phase.
 </p>
 
 <h2>Overview</h2>
 
 <p>
-This project involves setting up two virtual machines in Azure, each with a specific role. One acts as the Domain Controller, while the other functions as a client machine for testing connectivity and interaction.
+This phase involves setting up two virtual machines in Azure, each with a specific role:
+
+- DC-1 (Windows Server 2022) will serve as the future Domain Controller.
+
+- Client-1 (Windows 10) will function as a test machine to verify connectivity and RDP access.
+
+These systems are deployed within the same Virtual Network to simulate real-world enterprise infrastructure. No Active Directory roles are deployed yet, as this step is focused on infrastructure readiness.
 </p>
 
 <h2>Key Objectives</h2>
@@ -114,5 +120,5 @@ Now once the traffic has been enabled, you can check back with Client-1 and noti
 <h2>Final Thoughts</h2>
 
 <p>
-We’ve finished setting up the foundation for our Azure and Active Directory project series. By configuring two virtual machines, a Domain Controller and a Client, we’ve created the base environment for what’s to come. This project covered remote access setup and a quick look at network traffic between the machines. With this groundwork in place, we’re ready to move on to more advanced configurations and hands-on scenarios in Azure and Active Directory.
+While this phase doesn't include Active Directory services yet, it sets a clean and working foundation for the rest of the series. In real enterprise environments, network connectivity and communication between virtual machines are always verified before adding roles or configuring the domain. Now let's head to phase 2, Active Directory Deployment and Configuration
 </p>
